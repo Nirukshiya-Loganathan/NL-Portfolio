@@ -36,7 +36,7 @@ const Projects = () => {
             id: 4,
             title: "WorkAid",
             description: "Web-based, mobile-responsive service management platform designed to streamline client and worker interactions for service bookings. Connects clients, workers, and admin/finance staff to manage services, payments, and schedules efficiently.",
-            image: "https://images.unsplash.com/photo-1556740772-1a741367b93e?w=500&h=300&fit=crop",
+            image: "https://drive.google.com/file/d/1uIwROzX9o-ftkzMUOKQJJYEwjqspwL5F/view?usp=sharing",
             tech: ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "Figma"],
             link: "https://github.com/anjananadee23/WorkAid",
         },

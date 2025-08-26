@@ -9,7 +9,7 @@ export default function Home() {
     const fullName = "Nirukshiya Loganathan";
 
     const skills = [
-        'React', 'JavaScript', 'TypeScript', 'Node.js', 'Python', 'SQL', 'Git', 'MongoDB'
+        'Java', 'JavaScript', 'React', 'ReactNative', 'Nodejs', 'MySQL', 'PostgreSQL', 'C', 'HTML', 'CSS', 'TailwindCSS', 'Selenium(learning)', 'Playwright(learning)', 'Jira', 'JUnit5', 'Git', 'Figma'
     ];
 
     // Continuous typewriter effect
