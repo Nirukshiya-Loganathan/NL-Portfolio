@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Link } from 'react-router-dom'; // ✅ React Router Link
 import ProjectCard from '../components/ProjectCard';
 
 // Import all your local images from assets
@@ -18,15 +19,15 @@ const Projects = () => {
             id: 1,
             title: "BusHubLK",
             description: "Digital platform designed to improve and modernize public transport services provided by the Sri Lanka Transport Board. Connects passengers, drivers, and all levels of SLTB management.",
-            image: bushub,   // 👈 now local image
+            image: bushub,
             tech: ["React", "Node.js", "PostgreSQL", "JWT", "ReactNative", "Tailwind"],
             link: "https://github.com/MurshidAkram/BusHubLK",
         },
         {
             id: 2,
-            title: "chatbot automation testing - Learning mini project",
+            title: "Chatbot Automation Testing - Learning Mini Project",
             description: "Developed automation scripts using Selenium + Java to validate chatbot responses. This is a mini learning project to gain hands-on experience in automation testing.",
-            image: chatbot,   // 👈 now local image
+            image: chatbot,
             tech: ["Java", "Selenium Web Driver", "Chrome Driver", "Maven", "TestNG"],
             link: "https://github.com/Nirukshiya-Loganathan/AI_Chatbot_QA",
         },
@@ -34,7 +35,7 @@ const Projects = () => {
             id: 3,
             title: "Moonlit-Devs (Library Management System)",
             description: "A Java-based desktop application for managing library operations, including user registration, book cataloging, borrowing, and returns. Implemented DAO layer with unit testing using JUnit 5.",
-            image: library,   // 👈 now local image
+            image: library,
             tech: ["Java", "JDBC", "MySQL", "JUnit 5", "Maven"],
             link: "https://github.com/Nirukshiya-Loganathan/Moonlit-Devs-UNIT-tESTING",
         },
@@ -42,15 +43,15 @@ const Projects = () => {
             id: 4,
             title: "WorkAid",
             description: "Web-based, mobile-responsive service management platform designed to streamline client and worker interactions for service bookings. Connects clients, workers, and admin/finance staff to manage services, payments, and schedules efficiently.",
-            image: workaid,   // 👈 now local image
+            image: workaid,
             tech: ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "Figma"],
             link: "https://github.com/anjananadee23/WorkAid",
         },
         {
             id: 5,
-            title: "Online calculator automation testing - Learning Mini project",
+            title: "Online Calculator Automation Testing - Learning Mini Project",
             description: "Automated functional test cases for a demo online calculator, validating core operations (addition, subtraction, multiplication, division) using Playwright.",
-            image: calculator,   // 👈 now local image
+            image: calculator,
             tech: ["Playwright", "Typescript", "NPM", "Playwright Test Runner"],
             link: "https://github.com/Nirukshiya-Loganathan/playwright-calculator-tests",
         }
@@ -159,18 +160,14 @@ const Projects = () => {
                 >
                     Let's discuss your project and see how I can help bring your ideas to life.
                 </motion.p>
-                <motion.a
-                    href="/contact"
+                
+                {/* ✅ Internal navigation with React Router */}
+                <Link
+                    to="/contact"
                     className="inline-block bg-green-500 hover:bg-green-600 text-white px-10 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.4 }}
-                    viewport={{ once: true }}
                 >
                     Get In Touch
-                </motion.a>
+                </Link>
             </motion.div>
         </motion.div>
     );
