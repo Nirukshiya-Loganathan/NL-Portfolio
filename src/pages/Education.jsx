@@ -8,7 +8,7 @@ const Education = () => {
             degree: "Bachelor of Science in Information Systems",
             institution: "University of Colombo School of Computing (UCSC)",
             period: "2022 - Present",
-            gpa: "2.8/4.0",
+            gpa: "3.28/4.0",
             description: "",
             courses: ["Software Quality Assurance", "Database Systems", "Data Structures & Algorithms", "RAD(java)", "Operating Systems"],
             achievements: [
