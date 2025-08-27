@@ -4,5 +4,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  //base: '/NL-Portfolio/' 
+  //base: '/NL-Portfolio/'   
+  "deploy:full": "npm run build && npm run deploy"
 })
