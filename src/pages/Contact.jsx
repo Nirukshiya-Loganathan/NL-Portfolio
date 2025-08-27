@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });

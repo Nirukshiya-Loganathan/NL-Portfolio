@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
 
 
 const FloatingMessageButton = () => {
