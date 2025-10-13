@@ -46,14 +46,6 @@ const Projects = () => {
             image: workaid,
             tech: ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "Figma"],
             link: "https://github.com/anjananadee23/WorkAid",
-        },
-        {
-            id: 5,
-            title: "Online Calculator Automation Testing - Learning Mini Project",
-            description: "Automated functional test cases for a demo online calculator, validating core operations (addition, subtraction, multiplication, division) using Playwright.",
-            image: calculator,
-            tech: ["Playwright", "Typescript", "NPM", "Playwright Test Runner"],
-            link: "https://github.com/Nirukshiya-Loganathan/playwright-calculator-tests",
         }
     ];
 
