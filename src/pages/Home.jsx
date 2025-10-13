@@ -140,6 +140,7 @@ export default function Home() {
                                 Download Resume
                             </a>
                         </div>
+                        
                     </div>
                     <div className="bg-gray-800 rounded-2xl p-8">
                         <h3 className="text-2xl font-bold text-white mb-6">Skills & Technologies</h3>
