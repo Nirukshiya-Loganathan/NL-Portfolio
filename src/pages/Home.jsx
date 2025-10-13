@@ -136,7 +136,7 @@ export default function Home() {
                         </p>
 
                         <div className="flex gap-4">
-                            <a href="https://nirukshiya-loganathan.github.io/NL-Portfolio/public/Nirukshiya_QA.pdf" download className="text-blue-400 hover:text-blue-300 font-semibold flex items-center gap-2">
+                            <a href="C:\Users\lniru\Downloads\NL-Portfolio\public\Nirukshiya_QA.pdf" download className="text-blue-400 hover:text-blue-300 font-semibold flex items-center gap-2">
                                 Download Resume
                             </a>
                         </div>
